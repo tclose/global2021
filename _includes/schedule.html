@@ -15,9 +15,8 @@
               <h4>{{ day.name }}:</h3>
               <ul>
               {%- for event in day.events -%}
-                <li>
+                <li> <b>{{ event.title }}</b>
                   <ul>
-                    <li><b>{{ event.title }}</b></li>    
                     <li>{{ event.start }} ({{ event.duration }}) </li>
                     <li>registration: <a href="{{ event.registration }}" target="_blank">{{ event.registration }}</a></li>
                   </ul>
