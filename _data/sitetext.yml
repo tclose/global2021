@@ -27,14 +27,49 @@ schedule:
     - name: "Monday, November 29"
       events:
         - start: "10:00 AEDT"
-          end: "11:30 AEDT"
+          end: "10:30 AEDT"
           title: Welcome to Brainhack and project pitches
-        - start: "12:00 AEDT"
-          end: "14:00 AEDT"
+        - start: "14:00 AEDT"
+          end: "16:00 AEDT"
           title: High performance computing (HPC) use and bash scripting basics
+    - name: "Tuesday, November 30"
+      events:
+        - start: "11:30 AEDT"
+          end: "12:00 AEDT"
+          title: Project status updates
+        - start: "14:00 AEDT"
+          end: "16:00 AEDT"
+          title: Git and GitHub for researchers
+    - name: "Wednesday, December 1"
+      events:
+        - start: "11:30 AEDT"
+          end: "12:00 AEDT"
+          title: Project status updates
+        - start: "14:00 AEDT"
+          end: "16:00 AEDT"
+          title: Intro to Python scripting and environment management
+    - name: "Thursday, December 2"
+      events:
+        - start: "11:30 AEDT"
+          end: "12:00 AEDT"
+          title: Project status updates
+        - start: "14:00 AEDT"
+          end: "16:00 AEDT"
+          title: Containers
+    - name: "Friday, December 3"
+      events:
+        - start: "11:30 AEDT"
+          end: "12:00 AEDT"
+          title: Project status updates
+        - start: "14:00 AEDT"
+          end: "16:00 AEDT"
+          title: Development tools
+
+
+    
 
 footer:
-  legal: "Logo adapted from original by <a href=\"https://pixabay.com/users/gdj-1086657/\">Gordon Johnson</a> from <a href=\"https://pixabay.com/\">Pixabay</a>"
+  legal: "Title image adapted from original by <a href=\"https://pixabay.com/users/gdj-1086657/\">Gordon Johnson</a> from <a href=\"https://pixabay.com/\">Pixabay</a>"
   social:
     - url: https://twitter.com
       icon: "fab fa-twitter"
