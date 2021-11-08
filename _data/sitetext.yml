@@ -26,44 +26,54 @@ schedule:
   days:
     - name: "Monday, November 29"
       events:
-        - start: "10:00 AEDT"
-          end: "10:30 AEDT"
+        - start: "10:00 AEST, 09:00 AEDT, 08:00 AWST"
+          end: "10:30 AEST"
           title: Welcome to Brainhack and project pitches
-        - start: "14:00 AEDT"
-          end: "16:00 AEDT"
+          registration: https://uqz.zoom.us/meeting/register/tZYof-6hqzItGNDIc1_g8ninsuLFDstlOpRO
+        - start: "14:00 AEST, 15:00 AEDT, 12:00 AWST"
+          end: "16:00 AEST"
           title: High performance computing (HPC) use and bash scripting basics
+          registration: https://uqz.zoom.us/meeting/register/tZYrfu6gqjgoH9MboXHLg9M5-1Z9dMTeWFZC
     - name: "Tuesday, November 30"
       events:
-        - start: "11:30 AEDT"
-          end: "12:00 AEDT"
+        - start: "10:30 AEST, 09:30 AEDT, 08:30 AWST"
+          end: "11:00 AEST"
           title: Project status updates
-        - start: "14:00 AEDT"
-          end: "16:00 AEDT"
+          registration:  https://uqz.zoom.us/meeting/register/tZArdeiprD8oEtzTV-FdDj3J1cT-3Fsn2Ak_
+        - start: "14:00 AEST, 15:00 AEDT, 12:00 AWST"
+          end: "16:00 AEST"
           title: Git and GitHub for researchers
+          registration: https://uqz.zoom.us/meeting/register/tZcpce2vrT8sG9LLUcx_na32C5xcc4IsZZy4
     - name: "Wednesday, December 1"
       events:
-        - start: "11:30 AEDT"
-          end: "12:00 AEDT"
+        - start: "10:30 AEST, 09:30 AEDT, 08:30 AWST"
+          end: "11:00 AEST"
           title: Project status updates
-        - start: "14:00 AEDT"
-          end: "16:00 AEDT"
+          registration:  https://uqz.zoom.us/meeting/register/tZcrc--uqT8oGdKnugOGrM_Ci3qX6HyhBTfX
+        - start: "14:00 AEST, 15:00 AEDT, 12:00 AWST"
+          end: "16:00 AEST"
           title: Intro to Python scripting and environment management
+          registration: https://uqz.zoom.us/meeting/register/tZYlcuGuqDItE9xJJJM2NfNSfYfxLSN_VsWj
     - name: "Thursday, December 2"
       events:
-        - start: "11:30 AEDT"
-          end: "12:00 AEDT"
+        - start: "10:30 AEST, 09:30 AEDT, 08:30 AWST"
+          end: "11:00 AEST"
           title: Project status updates
-        - start: "14:00 AEDT"
-          end: "16:00 AEDT"
+          registration: https://uqz.zoom.us/meeting/register/tZwtcu6urTwvH9KhNgHN5VFWow-1YPZ1SxWg
+        - start: "15:00 AEST, 16:00 AEDT, 13:00 AWST"
+          end: "17:00 AEST"
           title: Containers
+          registration: https://uqz.zoom.us/meeting/register/tZcpfumtqj4sGNU2jXcw1QKVjpgP4SeossE0
     - name: "Friday, December 3"
       events:
-        - start: "11:30 AEDT"
-          end: "12:00 AEDT"
+        - start: "10:30 AEST, 09:30 AEDT, 08:30 AWST"
+          end: "11:00 AEST"
           title: Project status updates
-        - start: "14:00 AEDT"
-          end: "16:00 AEDT"
+          registration: https://uqz.zoom.us/meeting/register/tZAkc-iurT8qGNZT1lm34ZJMRlWLmg6PQjrP
+        - start: "14:00 AEST, 15:00 AEDT, 12:00 AWST"
+          end: "16:00 AEST"
           title: Development tools
+          registration: https://uqz.zoom.us/meeting/register/tZYtfumsqz0sGtMCOCl-sFkubtWh6SmDjxs1
 
 
     
