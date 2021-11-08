@@ -17,7 +17,7 @@
               {%- for event in day.events -%}
                 <li>
                   {{ event.start }} ({{ event.duration }}): {{ event.title }}
-		  registration: {{ event.registration }}
+		              registration: <a href="{{ event.registration }}" target="_blank">{{ event.registration }}</a>
                 </li>
               {% endfor %}
               </ul>
