@@ -16,7 +16,8 @@
               <ul>
               {%- for event in day.events -%}
                 <li>
-                  {{ event.start }} - {{ event.end }}: {{ event.title }}
+                  {{ event.start }} ({{ event.duration }}): {{ event.title }}
+		  registration: {{ event.registration }}
                 </li>
               {% endfor %}
               </ul>
