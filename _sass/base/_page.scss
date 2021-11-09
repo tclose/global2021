@@ -71,3 +71,63 @@ img::selection {
 img::-moz-selection {
   background: transparent;
 }
+
+
+.container {
+  margin: 0 auto;
+  max-width: 100%;
+  width: 1360px;
+
+  &.medium {
+    width: (1360px * 0.75);
+  }
+
+  @include breakpoint('<=wide') {
+    width: 1200px;
+
+    &.medium {
+      width: (1200px * 0.75);
+    }
+  }
+
+  @include breakpoint('<=normal') {
+    width: 960px;
+
+    &.medium {
+      width: (960px * 0.75);
+    }
+  }
+
+  @include breakpoint('<=narrow') {
+    width: 100% !important;
+  }
+}
+
+.content {
+  padding: 6em 0 6em 0;
+
+  h3 {
+    font-size: 1.5em;
+  }
+
+  &.dark {
+    background: #433;
+  }
+
+  &.style1 {
+    background: url('images/bgtr.svg') top right no-repeat, url('images/bgbl.svg') bottom left no-repeat, url('images/bgbl.svg') bottom left no-repeat, url('images/overlay.png'), linear-gradient(45deg, #b39c68, #a56365, #412e4c);
+  }
+
+  &.style2 {
+    background: url('images/bgtr.svg') top right no-repeat, url('images/bgbl.svg') bottom left no-repeat, url('images/overlay.png'), linear-gradient(45deg, #384955, #655361, #85505f);
+  }
+
+  &.style3 {
+    background: url('images/bgtr.svg') top right no-repeat, url('images/bgbl.svg') bottom left no-repeat, url('images/overlay.png'), linear-gradient(45deg, #5f796b, #3a4e59, #2f394e);
+  }
+
+  &.style4 {
+    padding-top: 0;
+    background: #fff;
+  }
+}
