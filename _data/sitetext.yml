@@ -76,7 +76,7 @@ traintrack:
       desc: "Learn how to program efficiently and effectively with VSCode and test-driven development"
       image: assets/img/traintrack/vscode.jpg
       alt: Development tools
-  end: "Qualified <br> Brain-<br> Hacker!"
+  end: "Certified <br> Brain-<br> Hacker!"
 
 schedule:
   section: schedule
