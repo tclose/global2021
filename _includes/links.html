@@ -11,7 +11,7 @@
       {% for item in site.data.sitetext.links.items %}
         <div class="col-sm-4">
           <div class="links-item">
-            <a href="{{ item.link }}"><img class="mx-auto rounded-circle" width=250 height=250 src="{{ item.image }}" alt="{{ item.name }}"></a>
+            <a href="{{ item.link }}"><img class="mx-auto rounded-circle" src="{{ item.image }}" alt="{{ item.name }}"></a>
             <h4>{{ item.name }}</h4>
             <p class="text-muted">{{ item.description }}</p>
           </div>

@@ -20,6 +20,64 @@ about:
          Conduct</a>"
   section: about
 
+
+links:
+  title: "HACK-TRACK"
+  text: "Becoming part of the global brain-hackathon!"
+  subtext: BrainHack Global is a global event run with local nodes in different regions. Sign up to be involved with any of the projects happening around the world and connect with peers in the Australiasian node for advice, training and support.
+  section: links
+  items:
+    - name: "Guidelines"
+      description: "How to contribute"
+      image: assets/img/guidelines.jpg
+      link: https://github.com/brainhackorg/bhg-event-materials/blob/master/docs/leading_and_attending_to_brainhack_projects.md
+    - name: "Projects"
+      description: "The list of projects that have been proposed"
+      image: assets/img/bh_logo.png
+      link: https://brainhack.org/global2021/projects/
+    - name: "New project"
+      description: "Submit your own proposal here"
+      image: assets/img/new-project.jpg
+      link: https://github.com/brainhackorg/global2021/issues/new?assignees=&labels=project&template=project-submission-template.yml
+    
+
+traintrack:
+  title: "TRAIN-TRACK"
+  text: "From 0 to brain-hacker in 5 days: everything you wanted to know about brain-hacking but were too afraid to ask!"
+  section: traintrack
+  # left is the default
+  #start_align: "left"
+  events:
+    - title: "HPC and BASH basics"
+      year: "Monday, Nov 29"
+      desc: "Learn about how to launch programs from the BASH prompt on High performance computing (HPC) clusters"
+      image: assets/img/traintrack/hpc.jpg
+      alt: HPC and BASH basics
+    - title: "Git and Github for researchers"
+      year: "Tuesday, Nov 30"
+      desc: "Learn about github"
+      image: assets/img/traintrack/git.jpg
+      align: right
+      alt: Git and Github for researchers
+    - title: "Intro to Python"
+      year: "Wednesday, Dec 1"
+      desc: "Intro to Python scripting and environment management"
+      image: assets/img/traintrack/python.jpg
+      alt: Intro to Python
+    - title: "Containers"
+      year: "Thursday, Dec 2"
+      desc: "Learn how to get started with running Docker and Singularity containers"
+      image: assets/img/traintrack/containers.jpg
+      alt: Containers
+      # you can enforce the alignment
+      align: right
+    - title: "Development tools"
+      year: "Friday, Dec 3"
+      desc: "Learn how to program efficiently and effectively with VSCode and test-driven development"
+      image: assets/img/traintrack/vscode.jpg
+      alt: Development tools
+  end: "Qualified <br> Brain-<br> Hacker!"
+
 schedule:
   section: schedule
   title: "Schedule"
@@ -84,27 +142,6 @@ schedule:
           title: Development tools
           presenter: Tom Close & TBD
           registration: https://uqz.zoom.us/meeting/register/tZYtfumsqz0sGtMCOCl-sFkubtWh6SmDjxs1
-
-
-links:
-  title: "HACK-TRACK"
-  text: "Getting involved with the hackathon"
-  subtext: BrainHack Global is a global event run with local nodes in different regions. Sign up to be involved with any of the projects happening around the world and connect with peers in the Australiasian node for advice, training and support.
-  section: links
-  items:
-    - name: "Guidelines"
-      description: "How to contribute"
-      image: assets/img/guidelines.jpg
-      link: https://github.com/brainhackorg/bhg-event-materials/blob/master/docs/leading_and_attending_to_brainhack_projects.md
-    - name: "Projects"
-      description: "The list of projects that have been proposed"
-      image: assets/img/bh_logo.png
-      link: https://brainhack.org/global2021/projects/
-    - name: "New project"
-      description: "Submit your own proposal here"
-      image: assets/img/new-project.jpg
-      link: https://github.com/brainhackorg/global2021/issues/new?assignees=&labels=project&template=project-submission-template.yml
-    
 
 footer:
   legal: "Title image adapted from original by <a href=\"https://pixabay.com/users/gdj-1086657/\">Gordon Johnson</a> from <a href=\"https://pixabay.com/\">Pixabay</a>"
