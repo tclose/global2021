@@ -1,8 +1,8 @@
 header:
   title: Welcome to Brainhack Global 2021 - Australasia
   text: Nov 29 - Dec 3
-  button: Register here soon
-  buttonlink: "#about"
+  button: Register (join channel)
+  buttonlink: "https://mattermost.brainhack.org/brainhack/channels/brainhack-australasia"
 
 about:
   title: "About Brainhack"
@@ -86,42 +86,24 @@ schedule:
           registration: https://uqz.zoom.us/meeting/register/tZYtfumsqz0sGtMCOCl-sFkubtWh6SmDjxs1
 
 
-  links:
-    title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: team
-    items:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+links:
+  title: "HACKATHON"
+  text: "Getting involved with the hackathon"
+  subtext: BrainHack Global is a global event run with local nodes. Sign up to be involved with any of the projects happening around the network and connect with local members for advice/support.
+  section: links
+  items:
+    - name: "Guidelines"
+      description: "How to contribute"
+      image: assets/img/guidelines.jpg
+      link: https://github.com/brainhackorg/bhg-event-materials/blob/master/docs/leading_and_attending_to_brainhack_projects.md
+    - name: "Projects"
+      description: "Projects that have been proposed"
+      image: assets/img/bh_logo.png
+      link: https://brainhack.org/global2021/projects/
+    - name: "Add new project"
+      description: "Submit your own proposal here"
+      image: assets/img/new-project.jpg
+      link: https://github.com/brainhackorg/global2021/issues/new?assignees=&labels=project&template=project-submission-template.yml
     
 
 footer:
