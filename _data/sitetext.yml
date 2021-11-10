@@ -22,7 +22,7 @@ about:
 
 
 links:
-  title: "HACK-TRACK"
+  title: "HACKATHON"
   text: "Becoming part of the global brain-hackathon!"
   subtext: BrainHack Global is a global event run with local nodes in different regions. Sign up to be involved with any of the projects happening around the world and connect with peers in the Australiasian node for advice, training and support.
   section: links
@@ -39,44 +39,7 @@ links:
       description: "Submit your own proposal here"
       image: assets/img/new-project.jpg
       link: https://github.com/brainhackorg/global2021/issues/new?assignees=&labels=project&template=project-submission-template.yml
-    
 
-traintrack:
-  title: "TRAIN-TRACK"
-  text: "From 0 to brain-hacker in 5 days: everything you wanted to know about brain-hacking but were too afraid to ask!"
-  section: traintrack
-  # left is the default
-  #start_align: "left"
-  events:
-    - title: "HPC and BASH basics"
-      year: "Monday, Nov 29"
-      desc: "Learn about how to launch programs from the BASH prompt on High performance computing (HPC) clusters"
-      image: assets/img/traintrack/bash.png
-      alt: HPC and BASH basics
-    - title: "Git and Github for researchers"
-      year: "Tuesday, Nov 30"
-      desc: "Learn how to use git and github effectively"
-      image: assets/img/traintrack/github.png
-      align: right
-      alt: Git and Github for researchers
-    - title: "Intro to Python"
-      year: "Wednesday, Dec 1"
-      desc: "Intro to Python scripting and environment management"
-      image: assets/img/traintrack/python.png
-      alt: Intro to Python
-    - title: "Containers"
-      year: "Thursday, Dec 2"
-      desc: "Learn how to get started with running Docker and Singularity containers"
-      image: assets/img/traintrack/docker.png
-      alt: Containers
-      # you can enforce the alignment
-      align: right
-    - title: "Development tools"
-      year: "Friday, Dec 3"
-      desc: "Learn how to program efficiently and effectively with VSCode and test-driven development"
-      image: assets/img/traintrack/vscode.png
-      alt: Development tools
-  end: "Certified <br> Brain-<br> Hacker!"
 
 schedule:
   section: schedule
