@@ -51,30 +51,30 @@ traintrack:
     - title: "HPC and BASH basics"
       year: "Monday, Nov 29"
       desc: "Learn about how to launch programs from the BASH prompt on High performance computing (HPC) clusters"
-      image: assets/img/traintrack/hpc.jpg
+      image: assets/img/traintrack/bash.png
       alt: HPC and BASH basics
     - title: "Git and Github for researchers"
       year: "Tuesday, Nov 30"
-      desc: "Learn about github"
-      image: assets/img/traintrack/git.jpg
+      desc: "Learn how to use git and github effectively"
+      image: assets/img/traintrack/github.png
       align: right
       alt: Git and Github for researchers
     - title: "Intro to Python"
       year: "Wednesday, Dec 1"
       desc: "Intro to Python scripting and environment management"
-      image: assets/img/traintrack/python.jpg
+      image: assets/img/traintrack/python.png
       alt: Intro to Python
     - title: "Containers"
       year: "Thursday, Dec 2"
       desc: "Learn how to get started with running Docker and Singularity containers"
-      image: assets/img/traintrack/containers.jpg
+      image: assets/img/traintrack/docker.png
       alt: Containers
       # you can enforce the alignment
       align: right
     - title: "Development tools"
       year: "Friday, Dec 3"
       desc: "Learn how to program efficiently and effectively with VSCode and test-driven development"
-      image: assets/img/traintrack/vscode.jpg
+      image: assets/img/traintrack/vscode.png
       alt: Development tools
   end: "Certified <br> Brain-<br> Hacker!"
 
@@ -150,3 +150,5 @@ footer:
       icon: "fab fa-twitter"
     - url: https://github.com/brainhack-aus
       icon: "fab fa-github"
+    - url: https://www.instagram.com/brainhack_global/
+      icon: "fab fa-instagram"
