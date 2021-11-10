@@ -86,12 +86,12 @@ schedule:
           registration: https://uqz.zoom.us/meeting/register/tZYtfumsqz0sGtMCOCl-sFkubtWh6SmDjxs1
 
 
-  team:
+  links:
     title: "OUR AMAZING TEAM"
     text: "Lorem ipsum dolor sit amet consectetur."
     subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
-    people:
+    items:
       - name: "Kay Garland"
         role: "Lead Designer"
         image: assets/img/team/500x500.jpg
