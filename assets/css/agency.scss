@@ -23,5 +23,6 @@ $contact-image: "{{ site.data.style.contact-image }}";
 
 // Layout
 @import "layout/masthead.scss";
-@import "layout/timeline.scss";
+@import "layout/traintrack.scss";
+@import "layout/links.scss";
 @import "layout/footer.scss";

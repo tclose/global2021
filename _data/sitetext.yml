@@ -1,8 +1,8 @@
 header:
   title: Welcome to Brainhack Global 2021 - Australasia
   text: Nov 29 - Dec 3
-  button: Register here soon
-  buttonlink: "#about"
+  button: Register (join channel)
+  buttonlink: "https://mattermost.brainhack.org/brainhack/channels/brainhack-australasia"
 
 about:
   title: "About Brainhack"
@@ -19,6 +19,27 @@ about:
          href=\"http://www.brainhack.org/code-of-conduct.html\">Code of
          Conduct</a>"
   section: about
+
+
+links:
+  title: "HACKATHON"
+  text: "Becoming part of the global brain-hackathon!"
+  subtext: BrainHack Global is a global event run with local nodes in different regions. Sign up to be involved with any of the projects happening around the world and connect with peers in the Australiasian node for advice, training and support.
+  section: links
+  items:
+    - name: "Guidelines"
+      description: "How to contribute"
+      image: assets/img/guidelines.jpg
+      link: https://github.com/brainhackorg/bhg-event-materials/blob/master/docs/leading_and_attending_to_brainhack_projects.md
+    - name: "Projects"
+      description: "The list of projects that have been proposed"
+      image: assets/img/bh_logo.png
+      link: https://brainhack.org/global2021/projects/
+    - name: "New project"
+      description: "Submit your own proposal here"
+      image: assets/img/new-project.jpg
+      link: https://github.com/brainhackorg/global2021/issues/new?assignees=&labels=project&template=project-submission-template.yml
+
 
 schedule:
   section: schedule
@@ -85,13 +106,12 @@ schedule:
           presenter: Tom Close & TBD
           registration: https://uqz.zoom.us/meeting/register/tZYtfumsqz0sGtMCOCl-sFkubtWh6SmDjxs1
 
-
-    
-
 footer:
   legal: "Title image adapted from original by <a href=\"https://pixabay.com/users/gdj-1086657/\">Gordon Johnson</a> from <a href=\"https://pixabay.com/\">Pixabay</a>"
   social:
-    - url: https://twitter.com
+    - url: https://twitter.com/hashtag/BHAUS2021
       icon: "fab fa-twitter"
     - url: https://github.com/brainhack-aus
       icon: "fab fa-github"
+    - url: https://www.instagram.com/brainhack_global/
+      icon: "fab fa-instagram"
