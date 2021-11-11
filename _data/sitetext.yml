@@ -26,7 +26,7 @@ about:
              <a href=\"https://brainhack.org/global2021/events/\">local events</a>
              in different regions around the world. Sign up to be involved with any of the
              <a href=\"https://brainhack.org/global2021/projects/\">international projects</a>
-             and connect with peers in the Australiasian node for advice,
+             and connect with peers in the Australasian node for advice,
              training and social meet-ups."
     - title: Australasian Event
       body: "BHG 2021 Austaliasia follows the format of successful virtual OHBM BH hackathons.
@@ -38,7 +38,7 @@ about:
              virtual social events using <a href=\"https://www.gather.town/\">Gather.town</a>
              for everyone to meet up and get to know one another.\n
              
-             To register, please join the BrainHack-Australiasia
+             To register, please join the BrainHack-Australasia
              <a href=\"https://mattermost.brainhack.org/brainhack/channels/brainhack-australasia\">Mattermost channel</a>
              (a Slack alternative) and register for the Zoom sessions
              you plan attend in the <a href=\"#hacktrack\">hack-track</a> and
@@ -47,7 +47,7 @@ about:
 hacktrack:
   title: "HACK-TRACK"
   text: "Become part of the global brain-hackathon!"
-  subtext: "Get involved with interesting projects and form collaborations in Australiasia and around the world."
+  subtext: "Get involved with interesting projects and form collaborations in Australasia and around the world."
   register: https://uqz.zoom.us/meeting/register/tZYof-6hqzItGNDIc1_g8ninsuLFDstlOpRO
   section: hacktrack
   items:
