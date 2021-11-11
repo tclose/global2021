@@ -53,6 +53,7 @@ traintrack:
       desc: "Learn about how to launch programs from the BASH prompt on High performance computing (HPC) clusters"
       image: assets/img/traintrack/bash.png
       alt: HPC and BASH basics
+      
     - title: "Git and Github for researchers"
       year: "Tuesday, Nov 30"
       desc: "Learn how to use git and github effectively"
