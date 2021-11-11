@@ -119,7 +119,7 @@ schedule:
   days:
     - name: "Monday, November 29"
       events:
-        - start: "10am AEST/9am AEDT/8am AWST"
+        - start: "10am AEST/11am AEDT/8am AWST"
           duration: "60 min"
           title: Welcome to Brainhack and project pitches
           registration: https://uqz.zoom.us/meeting/register/tZYof-6hqzItGNDIc1_g8ninsuLFDstlOpRO
@@ -128,7 +128,7 @@ schedule:
           title: High Performance Computing (HPC) use and bash scripting basics
     - name: "Tuesday, November 30"
       events:
-        - start: "10:30am AEST/9:30am AEDT/8:30am AWST"
+        - start: "10:30am AEST/11:30am AEDT/8:30am AWST"
           duration: "30 min"
           title: Project status updates
           presenter: Kelly Garner
@@ -138,7 +138,7 @@ schedule:
           title: Git and GitHub for researchers
     - name: "Wednesday, December 1"
       events:
-        - start: "10:30am AEST/9:30am AEDT/8:30am AWST"
+        - start: "10:30am AEST/11:30am AEDT/8:30am AWST"
           duration: "30 min"
           title: Project status updates
           presenter: Kelly Garner
@@ -148,7 +148,7 @@ schedule:
           title: Intro to Python scripting and environment management
     - name: "Thursday, December 2"
       events:
-        - start: "10:30am AEST/9:30am AEDT/8:30am AWST"
+        - start: "10:30am AEST/11:30am AEDT/8:30am AWST"
           duration: "30 min"
           title: Project status updates
           presenter: Kelly Garner
@@ -158,7 +158,7 @@ schedule:
           title: Containers
     - name: "Friday, December 3"
       events:
-        - start: "10:30am AEST/9:30am AEDT/8:30am AWST"
+        - start: "10:30am AEST/11:30am AEDT/8:30am AWST"
           duration: "30 min"
           title: Project status updates
           presenter: Kelly Garner
