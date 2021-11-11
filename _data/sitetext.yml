@@ -5,27 +5,53 @@ header:
   buttonlink: "https://mattermost.brainhack.org/brainhack/channels/brainhack-australasia"
 
 about:
-  title: "About Brainhack"
-  body: "The purpose of Brainhack is to bridge the data science and
-         neuroscience research communities to advance the progress of
-         brain science research. Brainhack is a unique conference that
-         convenes researchers from across the globe and myriad
-         disciplines to work together on innovative projects related
-         to neuroscience.\n
-         
-         Brainhack Global is dedicated to a harassment-free conference
-         experience for everyone. Our anti-harassment policy can be
-         found here: <a
-         href=\"http://www.brainhack.org/code-of-conduct.html\">Code of
-         Conduct</a>"
+  title: "About"
   section: about
+  subsections:
+    - title: BrainHack Org
+      body: "The purpose of Brainhack is to bridge the data science and
+             neuroscience research communities to advance the progress of
+             brain science research. Brainhack is a unique conference that
+             convenes researchers from across the globe and myriad
+             disciplines to work together on innovative projects related
+             to neuroscience.\n
 
+             Brainhack Global is dedicated to a harassment-free conference
+             experience for everyone. Our anti-harassment policy can be
+             found here: <a
+             href=\"http://www.brainhack.org/code-of-conduct.html\">Code of
+             Conduct</a>"
+    - title: Global 2021
+      body: "BrainHack Global (BHG) is a hackathon consisting of many
+             <a href=\"https://brainhack.org/global2021/events/\">local events</a>
+             in different regions around the world. Sign up to be involved with any of the
+             <a href=\"https://brainhack.org/global2021/projects/\">international projects</a>
+             and connect with peers in the Australiasian node for advice,
+             training and social meet-ups."
+    - title: Australasian Event
+      body: "The BHG 2021 Austaliasian Event follows the format 
+             of successful virtual OHBM BrainHack hackathons.
+             There is a <a href=\"#traintrack\">training track</a>
+             for people new to computational science to get a handle on all
+             the basics required to get started, and a
+             <a href=\"#hacktrack\">hackathon-track</a>
+             for more experienced researchers to get together and collaborate on
+             open-source projects. Throughout the week there will also be
+             virtual social events using <a href=\"https://www.gather.town/\">Gather.town</a>
+             for everyone to meet up and get to know one another.\n
+             
+             To register, please join the BrainHack-Australiasia
+             <a href=\"https://mattermost.brainhack.org/brainhack/channels/brainhack-australasia\">Mattermost channel</a>
+             (a Slack alternative) and register for the sessions
+             you plan attend in the <a href=\"#hacktrack\">hack-track</a> and
+             <a href=\"#traintrack\">train-track</a> sections below."
 
-links:
+hacktrack:
   title: "HACK-TRACK"
-  text: "Becoming part of the global brain-hackathon!"
-  subtext: BrainHack Global is a global event run with local nodes in different regions. Sign up to be involved with any of the projects happening around the world and connect with peers in the Australiasian node for advice, training and support.
-  section: links
+  text: "Become part of the global brain-hackathon!"
+  subtext: "Get involved with interesting projects and form collaborations in Australiasia and around the world."
+  register: https://uqz.zoom.us/meeting/register/tZYof-6hqzItGNDIc1_g8ninsuLFDstlOpRO
+  section: hacktrack
   items:
     - name: "Guidelines"
       description: "How to contribute"
@@ -44,26 +70,32 @@ links:
 traintrack:
   title: "TRAIN-TRACK"
   text: "From 0 to brain-hacker in 5 days: everything you wanted to know about brain-hacking but were too afraid to ask!"
+  timing: "All train-track sessions are at 14:00 AEST, 15:00 AEDT, 12:00 AWST and of 90 minutes of duration"
   section: traintrack
   # left is the default
   #start_align: "left"
   events:
     - title: "HPC and BASH basics"
       year: "Monday, Nov 29"
-      desc: "Learn about how to launch programs from the BASH prompt on High performance computing (HPC) clusters"
+      desc: "Learn about how to launch programs from the BASH prompt on High Performance Computing (HPC) clusters"
       image: assets/img/traintrack/bash.png
       alt: HPC and BASH basics
-      
+      presenter: Dragan Rangelov & Aswin Narayanan
+      registration: https://uqz.zoom.us/meeting/register/tZYrfu6gqjgoH9MboXHLg9M5-1Z9dMTeWFZC
     - title: "Git and Github for researchers"
       year: "Tuesday, Nov 30"
-      desc: "Learn how to use git and github effectively"
+      desc: "Learn how to use git and github effectively for open-source projects"
       image: assets/img/traintrack/github.png
       align: right
+      presenter: Johanna Bayer & Saskia Bollmann
+      registration: https://uqz.zoom.us/meeting/register/tZcpce2vrT8sG9LLUcx_na32C5xcc4IsZZy4
       alt: Git and Github for researchers
     - title: "Intro to Python"
       year: "Wednesday, Dec 1"
       desc: "Intro to Python scripting and environment management"
       image: assets/img/traintrack/python.png
+      presenter: Christopher Nolan & TBD
+      registration: https://uqz.zoom.us/meeting/register/tZYlcuGuqDItE9xJJJM2NfNSfYfxLSN_VsWj
       alt: Intro to Python
     - title: "Containers"
       year: "Thursday, Dec 2"
@@ -72,11 +104,15 @@ traintrack:
       alt: Containers
       # you can enforce the alignment
       align: right
+      presenter: Thomas Shaw & Steffen Bollmann
+      registration: https://uqz.zoom.us/meeting/register/tZcpfumtqj4sGNU2jXcw1QKVjpgP4SeossE0
     - title: "Development tools"
       year: "Friday, Dec 3"
       desc: "Learn how to program efficiently and effectively with VSCode and test-driven development"
       image: assets/img/traintrack/vscode.png
       alt: Development tools
+      presenter: Tom Close & TBD
+      registration: https://uqz.zoom.us/meeting/register/tZYtfumsqz0sGtMCOCl-sFkubtWh6SmDjxs1
   end: "Certified <br> Brain-<br> Hacker!"
 
 schedule:
@@ -85,65 +121,53 @@ schedule:
   days:
     - name: "Monday, November 29"
       events:
-        - start: "10:00 AEST, 09:00 AEDT, 08:00 AWST"
+        - start: "10am AEST/9am AEDT/8am AWST"
           duration: "60 min"
           title: Welcome to Brainhack and project pitches
-          presenter: Kelly Garner & Steffen Bollmann
           registration: https://uqz.zoom.us/meeting/register/tZYof-6hqzItGNDIc1_g8ninsuLFDstlOpRO
-        - start: "14:00 AEST, 15:00 AEDT, 12:00 AWST"
+        - start: "2pm AEST/3pm AEDT/12pm AWST"
           duration: "90 min"
-          title: High performance computing (HPC) use and bash scripting basics
-          presenter: Dragan Rangelov & Aswin Narayanan
-          registration: https://uqz.zoom.us/meeting/register/tZYrfu6gqjgoH9MboXHLg9M5-1Z9dMTeWFZC
+          title: High Performance Computing (HPC) use and bash scripting basics
     - name: "Tuesday, November 30"
       events:
-        - start: "10:30 AEST, 09:30 AEDT, 08:30 AWST"
+        - start: "10:30am AEST/9:30am AEDT/8:30am AWST"
           duration: "30 min"
           title: Project status updates
           presenter: Kelly Garner
           registration:  https://uqz.zoom.us/meeting/register/tZArdeiprD8oEtzTV-FdDj3J1cT-3Fsn2Ak_
-        - start: "14:00 AEST, 15:00 AEDT, 12:00 AWST"
+        - start: "2pm AEST/3pm AEDT/12pm AWST"
           duration: "90 min"
           title: Git and GitHub for researchers
-          presenter: Johanna Bayer & Saskia Bollmann
-          registration: https://uqz.zoom.us/meeting/register/tZcpce2vrT8sG9LLUcx_na32C5xcc4IsZZy4
     - name: "Wednesday, December 1"
       events:
-        - start: "10:30 AEST, 09:30 AEDT, 08:30 AWST"
+        - start: "10:30am AEST/9:30am AEDT/8:30am AWST"
           duration: "30 min"
           title: Project status updates
           presenter: Kelly Garner
           registration:  https://uqz.zoom.us/meeting/register/tZcrc--uqT8oGdKnugOGrM_Ci3qX6HyhBTfX
-        - start: "14:00 AEST, 15:00 AEDT, 12:00 AWST"
+        - start: "2pm AEST/3pm AEDT/12pm AWST"
           duration: "90 min"
           title: Intro to Python scripting and environment management
-          presenter: Christopher Nolan & TBD
-          registration: https://uqz.zoom.us/meeting/register/tZYlcuGuqDItE9xJJJM2NfNSfYfxLSN_VsWj
     - name: "Thursday, December 2"
       events:
-        - start: "10:30 AEST, 09:30 AEDT, 08:30 AWST"
+        - start: "10:30am AEST/9:30am AEDT/8:30am AWST"
           duration: "30 min"
           title: Project status updates
           presenter: Kelly Garner
           registration: https://uqz.zoom.us/meeting/register/tZwtcu6urTwvH9KhNgHN5VFWow-1YPZ1SxWg
-        - start: "15:00 AEST, 16:00 AEDT, 13:00 AWST"
+        - start: "2pm AEST/3pm AEDT/12pm AWST"
           duration: "90 min"
           title: Containers
-          presenter: Thomas Shaw & Steffen Bollmann
-          registration: https://uqz.zoom.us/meeting/register/tZcpfumtqj4sGNU2jXcw1QKVjpgP4SeossE0
     - name: "Friday, December 3"
       events:
-        - start: "10:30 AEST, 09:30 AEDT, 08:30 AWST"
+        - start: "10:30am AEST/9:30am AEDT/8:30am AWST"
           duration: "30 min"
           title: Project status updates
           presenter: Kelly Garner
           registration: https://uqz.zoom.us/meeting/register/tZAkc-iurT8qGNZT1lm34ZJMRlWLmg6PQjrP
-        - start: "14:00 AEST, 15:00 AEDT, 12:00 AWST"
+        - start: "2pm AEST/3pm AEDT/12pm AWST"
           duration: "90 min"
           title: Development tools
-          presenter: Tom Close & TBD
-          registration: https://uqz.zoom.us/meeting/register/tZYtfumsqz0sGtMCOCl-sFkubtWh6SmDjxs1
-
 footer:
   legal: "Title image adapted from original by <a href=\"https://pixabay.com/users/gdj-1086657/\">Gordon Johnson</a> from <a href=\"https://pixabay.com/\">Pixabay</a>"
   social:
