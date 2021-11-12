@@ -15,12 +15,12 @@
               <h4>{{ day.name }}:</h3>
               <ul>
               {%- for event in day.events -%}
-                <li> <b>{{ event.title }}</b>
-                  <ul>
-                    <li>time: {{ event.start }} ({{ event.duration }}) </li>
+                <li>{{ event.start }}: {{ event.title }} ({{ event.duration }})
+                  <!--<ul>
+                    <li>time: </li>
                     <li>presenter: {{ event.presenter }}</li>
                     <li>registration: <a href="{{ event.registration }}" target="_blank">{{ event.registration }}</a></li>
-                  </ul>
+                  </ul>-->
                 </li>
               {% endfor %}
               </ul>
