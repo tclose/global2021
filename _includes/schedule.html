@@ -1,34 +1,46 @@
 <!-- Schedule -->
 <section class="page-section" id="{{ site.data.sitetext.schedule.section | default: schedule }}">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">{{ site.data.sitetext.schedule.title | markdownify | default: Schedule }}</h2>
-          <h3 class="section-subheading text-muted">{{ site.data.sitetext.schedule.text | default: schedule}}</h3>
-        </div>
+  <div class="container schedule">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.schedule.title | markdownify | default: Schedule }}</h2>
       </div>
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <ul class="schedule">
-		  {%- for day in site.data.sitetext.schedule.days -%}
-            <li>
-              <h4>{{ day.name }}:</h3>
-              <ul>
-              {%- for event in day.events -%}
-                <li>{{ event.start }}: {{ event.title }} ({{ event.duration }})
-                  <!--<ul>
-                    <li>time: </li>
-                    <li>presenter: {{ event.presenter }}</li>
-                    <li>registration: <a href="{{ event.registration }}" target="_blank">{{ event.registration }}</a></li>
-                  </ul>-->
-                </li>
-              {% endfor %}
-              </ul>
-            </li>
-		  {% endfor %}	
-          </ul>
+    </div>
+    {%- for day in site.data.sitetext.schedule.days -%}
+    <div class="row">
+      <div class="col-md-12">
+        <div class="row">
+          <div class="day-heading col-md-12 text-center">
+            <h4>{{ day.name }}</h4>
+          </div>
+        </div>
+        {%- for event in day.events -%}
+        <div class="row">
+          <div class="col-md-2">
+            {{ event.starttime | date: "%H:%M" }} -
+            {{ event.endtime | date: "%H:%M" }} AEST
+          </div>
+          <div class="col-md-2">
+            {{ event.starttime | date: "%s" | plus: 3600 | date: "%H:%M" }} -
+            {{ event.endtime | date: "%s" | plus: 3600 | date: "%H:%M" }} ADST
+          </div>
+          <div class="col-md-2">
+            {{ event.starttime | date: "%s" |plus: -7200 | date: "%H:%M" }} -
+            {{ event.endtime | date: "%s" | plus: -7200 | date: "%H:%M" }} AWST
+          </div>
+          <div class="col-md-6">
+            {{ event.title }}
+          </div>
+        </div>
+        {% endfor %}
+        <div class="row">
+          <div class="col-md-12 text-center">
+            + All day project hacking!
+          </div>
         </div>
       </div>
     </div>
-  </section>
+    {% endfor %}
+  </div>
+</section>
 <!-- End About -->

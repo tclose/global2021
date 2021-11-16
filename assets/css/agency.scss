@@ -9,6 +9,7 @@
 $primary: {{ site.data.style.highlight | default: "#fed136" }} !default;
 $white: {{ site.data.style.white | default: "#fff" }} !default;
 $black: {{ site.data.style.black | default: "#000" }} !default;
+$bg-primary: #604f16;
 
 // Custom Images
 $header-image: "{{ site.data.style.header-image }}";
@@ -25,4 +26,5 @@ $contact-image: "{{ site.data.style.contact-image }}";
 @import "layout/masthead.scss";
 @import "layout/traintrack.scss";
 @import "layout/hacktrack.scss";
+@import "layout/schedule.scss";
 @import "layout/footer.scss";
