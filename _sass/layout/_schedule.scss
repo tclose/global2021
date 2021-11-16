@@ -1,0 +1,16 @@
+.schedule {
+  .day-heading {
+    h4 {
+      padding-top: 1em;
+      color: inherit;
+      &.subheading {
+        text-transform: none;
+      }
+    }
+  }
+  .schedule-body {
+    > p {
+      margin-bottom: 0;
+    }
+  } 
+}
