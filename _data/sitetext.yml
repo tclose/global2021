@@ -92,7 +92,7 @@ traintrack:
       year: "Wednesday, Dec 1"
       desc: "Intro to Python scripting and environment management"
       image: assets/img/traintrack/python.png
-      presenter: Christopher Nolan & TBD
+      presenter: Christopher Nolan & Angela Renton
       registration: https://uqz.zoom.us/meeting/register/tZYlcuGuqDItE9xJJJM2NfNSfYfxLSN_VsWj
       alt: Intro to Python
     - title: "Containers"
