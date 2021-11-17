@@ -21,12 +21,12 @@
             {{ event.endtime | date: "%H:%M" }} AEST
           </div>
           <div class="col-md-2">
-            {{ event.starttime | date: "%s" | plus: 60 | date: "%H:%M" }} -
-            {{ event.endtime | date: "%s" | plus: 60 | date: "%H:%M" }} AEDT
+            {{ event.starttime | date: "%s" | plus: 3600 | date: "%H:%M" }} -
+            {{ event.endtime | date: "%s" | plus: 3600 | date: "%H:%M" }} AEDT
           </div>
           <div class="col-md-2">
-            {{ event.starttime | date: "%s" |plus: -120 | date: "%H:%M" }} -
-            {{ event.endtime | date: "%s" | plus: -120 | date: "%H:%M" }} AWST
+            {{ event.starttime | date: "%s" |plus: -7200 | date: "%H:%M" }} -
+            {{ event.endtime | date: "%s" | plus: -7200 | date: "%H:%M" }} AWST
           </div>
           <div class="col-md-6">
             {{ event.title }}
