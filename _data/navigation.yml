@@ -1,9 +1,12 @@
 nav:
   - title: "About"
     section: about
-    
+
   - title: "Schedule"
     section: schedule
+
+  - title: "Venue"
+    section: venue
 
   - title: "Brainhack Global"
     url: https://brainhack.org/global2021/
