@@ -1,0 +1,53 @@
+<!-- About -->
+  <section class="page-section" id="{{ site.data.sitetext.traintrack.section | default: about }}">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">{{ site.data.sitetext.traintrack.title | markdownify | default: About }}</h2>
+          <h3 class="section-subheading text-muted">{{ site.data.sitetext.traintrack.text | default: traintrack}}</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <ul class="traintrack">
+		  {%- for event in site.data.sitetext.traintrack.events -%}
+            {% if event.align == "right" %}
+			<li class="traintrack-inverted">
+			{% else %}
+			<li>
+			{% endif %}
+              <div class="traintrack-image">
+                <img class="rounded-circle img-fluid" src="{{ event.image }}" alt="{{ event.alt | default: '' }}">
+              </div>
+              <div class="traintrack-panel">
+                <div class="traintrack-heading">
+                  <h6>{{ event.year | markdownify }}</h4>
+                  <h4 class="subheading">{{ event.title }}</h4>
+                </div>
+                <div class="traintrack-body">
+                  <div class="text-muted">{{ event.presenter | markdownify }} </div>
+                </div>
+                <div class="traintrack-body">
+                  <div class="text-muted">{{ event.desc | markdownify }}</div>
+                </div>
+                <div>
+                  <div class="text-muted"><a href="{{ event.registration }}">Register</a></div>
+                </div>
+              </div>
+            </li>
+		  {% endfor %}	
+            
+		  {% if site.data.sitetext.traintrack.end %}	
+			<li class="traintrack-inverted">
+              <div class="traintrack-image">
+                <h4 style="color: black">{{ site.data.sitetext.traintrack.end }}</h4>
+              </div>
+            </li>
+		  {% endif %}
+			
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- End About -->
