@@ -109,7 +109,7 @@ traintrack:
       desc: "Learn how to program efficiently and effectively with VSCode and test-driven development"
       image: assets/img/traintrack/vscode.png
       alt: Development tools
-      presenter: Tom Close & TBD
+      presenter: Tom Close & Kelly Garner
       registration: https://uqz.zoom.us/meeting/register/tZYtfumsqz0sGtMCOCl-sFkubtWh6SmDjxs1
   end: "Certified <br> Brain-<br> Hacker!"
 
