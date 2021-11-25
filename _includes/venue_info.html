@@ -1,5 +1,29 @@
  <!-- Portfolio Modals -->
  {% for venue in site.data.venues %}
+
+ <div class="portfolio-modal modal" id="{{ venue.name }}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">{{ venue.name }}</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <h2>{{ venue.title }}</h2>
+            <hr class="star-primary">
+            <img src="assets/img/venues/{{ venue.img }}" class="img-responsive img-centered" alt="{{ venue.alt }}">
+            <h3>People: {{ venue.people }}</h3>
+            <p>{{ venue.description }}</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--
     <div class="portfolio-modal modal fade" id="{{ venue.name }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -23,5 +47,5 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
 {% endfor %}
