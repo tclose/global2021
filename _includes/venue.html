@@ -1,53 +1,29 @@
-<!-- About -->
-  <section class="page-section" id="{{ site.data.sitetext.traintrack.section | default: about }}">
-    <div class="container">
+<!-- Portfolio Grid Section -->
+<section id="venues" class="bg-light-gray">
+  <div class="container">
       <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">{{ site.data.sitetext.traintrack.title | markdownify | default: About }}</h2>
-          <h3 class="section-subheading text-muted">{{ site.data.sitetext.traintrack.text | default: traintrack}}</h3>
-        </div>
+          <div class="col-lg-12 text-center">
+              <h2 class="section-heading">Venues</h2>
+              <h3 class="section-subheading text-muted"></h3>
+          </div>
       </div>
       <div class="row">
-        <div class="col-lg-12">
-          <ul class="traintrack">
-		  {%- for event in site.data.sitetext.traintrack.events -%}
-            {% if event.align == "right" %}
-			<li class="traintrack-inverted">
-			{% else %}
-			<li>
-			{% endif %}
-              <div class="traintrack-image">
-                <img class="rounded-circle img-fluid" src="{{ event.image }}" alt="{{ event.alt | default: '' }}">
+      {% for venue in site.data.venues %}
+          <div class="col-md-4 col-sm-6 venues-item">
+              <a href="#{{ venue.name }}" class="venues-link" data-toggle="modal">
+                  <div class="venues-hover">
+                      <div class="venues-hover-content">
+                          <i class="fa fa-plus fa-3x"></i>
+                      </div>
+                  </div>
+                  <img src="assets/img/venues/{{ venue.thumbnail }}" class="img-responsive img-centered" alt="">
+              </a>
+              <div class="venues-caption">
+                  <h4>{{ venue.title }}</h4>
+                  <p class="text-muted">{{ venue.city }}</p>
               </div>
-              <div class="traintrack-panel">
-                <div class="traintrack-heading">
-                  <h6>{{ event.year | markdownify }}</h4>
-                  <h4 class="subheading">{{ event.title }}</h4>
-                </div>
-                <div class="traintrack-body">
-                  <div class="text-muted">{{ event.presenter | markdownify }} </div>
-                </div>
-                <div class="traintrack-body">
-                  <div class="text-muted">{{ event.desc | markdownify }}</div>
-                </div>
-                <div>
-                  <div class="text-muted"><a href="{{ event.registration }}">Register</a></div>
-                </div>
-              </div>
-            </li>
-		  {% endfor %}	
-            
-		  {% if site.data.sitetext.traintrack.end %}	
-			<li class="traintrack-inverted">
-              <div class="traintrack-image">
-                <h4 style="color: black">{{ site.data.sitetext.traintrack.end }}</h4>
-              </div>
-            </li>
-		  {% endif %}
-			
-          </ul>
-        </div>
+          </div>
+      {% endfor %}
       </div>
-    </div>
-  </section>
-<!-- End About -->
+  </div>
+</section>

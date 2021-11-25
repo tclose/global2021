@@ -1,0 +1,26 @@
+- title: Venue 1
+  name: Venue-1
+  city: A City
+  img: TBD.jpg
+  thumbnail: TBD.jpg
+  alt: Picture of TBD
+  people: Tom, Jo, Jane
+  description: Description
+
+- title: Venue 2
+  name: Venue-2
+  city: Another City
+  img: TBD.jpg
+  thumbnail: TBD.jpg
+  alt: Picture of TBD
+  people: Billy, Jude, Taj
+  description: Description
+
+- title: Venue 3
+  name: Venue-3
+  city: Yet another City
+  img: TBD.jpg
+  thumbnail: TBD.jpg
+  alt: Picture of TBD
+  people: Spencer, Amalia, Reef
+  description: Description
