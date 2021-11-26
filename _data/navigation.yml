@@ -2,11 +2,17 @@ nav:
   - title: "About"
     section: about
 
+  - title: "Hack"
+    section: hacktrack
+
+  - title: "Train"
+    section: traintrack
+
   - title: "Schedule"
     section: schedule
 
   - title: "Venues"
     section: venues
 
-  - title: "Brainhack Global"
+  - title: "Global"
     url: https://brainhack.org/global2021/
