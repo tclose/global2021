@@ -1,11 +1,11 @@
-- title: Venue 1
-  name: Venue-1
-  city: A City
-  img: TBD.jpg
-  thumbnail: TBD.jpg
-  alt: Picture of TBD
-  people: Tom, Jo, Jane
-  description: Description
+- title: Brain and Mind Centre
+  name: bmc
+  city: Sydney
+  img: bmc-entrance.png
+  thumbnail: bmc-thumbnail.png
+  alt: BMC Entrance
+  people: Tom Close, Aria Nguyen, Mariano Cabezas, Jenny Zhu
+  description: We are organising a few in-person hacks at the Brain and Mind Centre at the University of Sydney. Please reach out on the mattermost channel if you would like to join in!
 
 - title: Venue 2
   name: Venue-2

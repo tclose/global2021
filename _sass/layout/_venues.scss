@@ -61,6 +61,11 @@
     text-transform: none;
 }
 
+#venues .venues-item img {
+    width: 100%;
+    height: 300px;
+}
+
 /*
 #venues .venues-item .venues-caption p {
     margin: 0;
@@ -135,8 +140,18 @@
 }
 
 .venue-focus {
-    background-color: #000;
-    width: 75%;
+    background-color: #222;
+    width: 100%;
+}
+
+.venue-page {
+    width: 100%;
+    height: 100%;
+}
+
+.venue-focus img {
+    max-width: 100%;
+    max-height: 100%;
 }
 
 @media screen and (max-width : 1200px){
