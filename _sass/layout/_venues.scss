@@ -19,7 +19,7 @@
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
-    background: #aa8d3d;
+    background: gold;
 }
 
 #venues .venues-item .venues-link .venues-hover:hover {
@@ -119,7 +119,7 @@
             margin-bottom: 10px;
         }
         a {
-            color: DodgerBlue;
+            color: rgb(255, 221, 30);
         }
         ul {
             padding-left: 350px;
@@ -128,6 +128,15 @@
             font-size: 110%;
         }
     }
+}
+
+.venue-modal {
+    background-color: #000;
+}
+
+.venue-focus {
+    background-color: #000;
+    width: 75%;
 }
 
 @media screen and (max-width : 1200px){
