@@ -1,3 +1,12 @@
+- title: Online
+  name: online
+  city: Your bedroom
+  img: zoom.png
+  thumbnail: zoom.png
+  alt: Zoom logo
+  people: Everyone
+  description: Join in from anywhere in Australia, New Zealand or the world!<br><br>Please add your own venue (with pictures) to the website to show us where you will be working from by creating a Git pull-request at http://brainhack-aus.github.io/global2021/ (join in to the Git/GitHub Train-track for instructions on how to do this)
+
 - title: Brain and Mind Centre - The University of Sydney
   name: bmc
   city: Sydney
@@ -15,7 +24,6 @@
   alt: GP South room
   people: Steffen Bollmann, Kelly Garner, Saskia Bollmann, Chris Nolan, Yohan Wards
   description: A pod of BrainHackers will be collecting at General Purpose South at UQ's St Lucia campus during the week. Contact us on the Mattermost channel for more details.
-
 
 - title: The University of Melbourne
   name: mb
