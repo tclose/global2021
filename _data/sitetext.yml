@@ -167,9 +167,9 @@ schedule:
           title: Project status updates
           presenter: Kelly Garner
           registration: https://uqz.zoom.us/meeting/register/tZwtcu6urTwvH9KhNgHN5VFWow-1YPZ1SxWg
-        - start: "2pm AEST/3pm AEDT/12pm AWST"
-          starttime: 2021-12-02T15:00:00+11:00
-          endtime: 2021-12-02T17:00:00+11:00
+        - start: "3pm AEST/4pm AEDT/1pm AWST"
+          starttime: 2021-12-02T16:00:00+11:00
+          endtime: 2021-12-02T18:00:00+11:00
           duration: "90 min"
           title: Containers
     - name: "Friday, December 3"
