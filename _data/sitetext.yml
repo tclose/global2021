@@ -88,13 +88,13 @@ traintrack:
       presenter: Johanna Bayer & Saskia Bollmann
       registration: https://uqz.zoom.us/meeting/register/tZcpce2vrT8sG9LLUcx_na32C5xcc4IsZZy4
       alt: Git and Github for researchers
-    - title: "Intro to Python"
+    - title: "Introduction to Python scripting and environment management"
       year: "Wednesday, Dec 1"
-      desc: "Intro to Python scripting and environment management"
+      desc: "Learn how to manage Python environments and create sharable tools for your research projects"
       image: assets/img/traintrack/python.png
       presenter: Christopher Nolan & Angela Renton
       registration: https://uqz.zoom.us/meeting/register/tZYlcuGuqDItE9xJJJM2NfNSfYfxLSN_VsWj
-      alt: Intro to Python
+      alt: Python scripting and environment management
     - title: "Containers"
       year: "Thursday, Dec 2"
       desc: "Learn how to get started with running Docker and Singularity containers"
