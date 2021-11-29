@@ -1,3 +1,12 @@
+- title: Online
+  name: online
+  city: Anywhere
+  img: online.jpg
+  thumbnail: online-thumb.jpg
+  alt: Bedroom coders
+  people: Everyone
+  description: Join in from your favourite cafe, library or your bedroom. All sessions will be run over Zoom so you won't miss a thing!<br><br>Please add your own "venue" (with pictures) to the website to show us where you will be working from by creating a Git pull-request at http://brainhack-aus.github.io/global2021/ (join in to the Git/GitHub Train-track for instructions on how to do this)
+
 - title: The University of Sydney
   name: usyd
   city: Sydney
