@@ -6,6 +6,11 @@
         <h2 class="section-heading text-uppercase">{{ site.data.sitetext.schedule.title | markdownify | default: Schedule }}</h2>
       </div>
     </div>
+    <div class="row">
+      <div class="col-lg-12 calendar text-center">
+        <img src="assets/img/calendar.png"/>
+      </div>
+    </div>
     {%- for day in site.data.sitetext.schedule.days -%}
     <div class="row">
       <div class="col-md-12">
