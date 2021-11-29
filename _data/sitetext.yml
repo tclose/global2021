@@ -119,72 +119,52 @@ schedule:
   days:
     - name: "Monday, November 29"
       events:
-        - start: "10am AEST/11am AEDT/8am AWST"
-          starttime: 2021-11-29T11:00:00+11:00
+        - starttime: 2021-11-29T11:00:00+11:00
           endtime: 2021-11-29T12:00:00+11:00
-          duration: "60 min"
           title: Welcome to Brainhack and project pitches
-          registration: https://uqz.zoom.us/meeting/register/tZYof-6hqzItGNDIc1_g8ninsuLFDstlOpRO
-        - start: "2pm AEST/3pm AEDT/12pm AWST"
-          starttime: 2021-11-29T15:00:00+11:00
+        - starttime: 2021-11-29T15:00:00+11:00
           endtime: 2021-11-29T17:00:00+11:00
-          duration: "90 min"
           title: High Performance Computing (HPC) use and bash scripting basics
+        - starttime: 2021-11-29T17:00:00+11:00
+          endtime: 2021-11-29T18:00:00+11:00
+          title: BrainHack Trivia!
     - name: "Tuesday, November 30"
       events:
-        - start: "10:30am AEST/11:30am AEDT/8:30am AWST"
-          starttime: 2021-11-30T11:30:00+11:00
+        - starttime: 2021-11-30T11:30:00+11:00
           endtime: 2021-11-30T12:00:00+11:00
-          duration: "30 min"
           title: Project status updates
-          presenter: Kelly Garner
-          registration:  https://uqz.zoom.us/meeting/register/tZArdeiprD8oEtzTV-FdDj3J1cT-3Fsn2Ak_
-        - start: "2pm AEST/3pm AEDT/12pm AWST"
-          starttime: 2021-11-30T15:00:00+11:00
+        - starttime: 2021-11-29T12:00:00+11:00
+          endtime: 2021-11-29T13:00:00+11:00
+          title: Gather.town Lunch!
+        - starttime: 2021-11-30T15:00:00+11:00
           endtime: 2021-11-30T17:00:00+11:00
-          duration: "90 min"
           title: Git and GitHub for researchers
     - name: "Wednesday, December 1"
       events:
-        - start: "10:30am AEST/11:30am AEDT/8:30am AWST"
-          starttime: 2021-12-01T11:30:00+11:00
+        - starttime: 2021-12-01T11:30:00+11:00
           endtime: 2021-12-01T12:00:00+11:00
-          duration: "30 min"
           title: Project status updates
-          presenter: Kelly Garner
-          registration:  https://uqz.zoom.us/meeting/register/tZcrc--uqT8oGdKnugOGrM_Ci3qX6HyhBTfX
-        - start: "2pm AEST/3pm AEDT/12pm AWST"
-          starttime: 2021-12-01T15:00:00+11:00
+        - starttime: 2021-12-01T15:00:00+11:00
           endtime: 2021-12-01T17:00:00+11:00
-          duration: "90 min"
           title: Intro to Python scripting and environment management
     - name: "Thursday, December 2"
       events:
-        - start: "10:30am AEST/11:30am AEDT/8:30am AWST"
-          starttime: 2021-12-02T11:30:00+11:00
+        - starttime: 2021-12-02T11:30:00+11:00
           endtime: 2021-12-02T12:00:00+11:00
-          duration: "30 min"
           title: Project status updates
-          presenter: Kelly Garner
-          registration: https://uqz.zoom.us/meeting/register/tZwtcu6urTwvH9KhNgHN5VFWow-1YPZ1SxWg
-        - start: "3pm AEST/4pm AEDT/1pm AWST"
-          starttime: 2021-12-02T16:00:00+11:00
+        - starttime: 2021-12-02T16:00:00+11:00
           endtime: 2021-12-02T18:00:00+11:00
-          duration: "90 min"
           title: Containers
+        - starttime: 2021-11-29T18:00:00+11:00
+          endtime: 2021-11-29T19:00:00+11:00
+          title: Gather.town Drinks!
     - name: "Friday, December 3"
       events:
-        - start: "10:30am AEST/11:30am AEDT/8:30am AWST"
-          starttime: 2021-12-03T11:30:00+11:00
+        - starttime: 2021-12-03T11:30:00+11:00
           endtime: 2021-12-03T12:00:00+10:00
-          duration: "30 min"
           title: Project status updates
-          presenter: Kelly Garner
-          registration: https://uqz.zoom.us/meeting/register/tZAkc-iurT8qGNZT1lm34ZJMRlWLmg6PQjrP
-        - start: "2pm AEST/3pm AEDT/12pm AWST"
-          starttime: 2021-12-03T15:00:00+11:00
+        - starttime: 2021-12-03T15:00:00+11:00
           endtime: 2021-12-03T17:00:00+11:00
-          duration: "90 min"
           title: Development tools
 footer:
   legal: "Title image adapted from original by <a href=\"https://pixabay.com/users/gdj-1086657/\">Gordon Johnson</a> from <a href=\"https://pixabay.com/\">Pixabay</a>"
